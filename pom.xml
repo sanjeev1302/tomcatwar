@@ -27,15 +27,17 @@
 	</dependencies>
 	
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>jfrogtest</id>
-		    <url>http://18.207.180.198:8082/artifactory/jfrogtest/snapshots/</url>
-		 </snapshotRepository>
+		 <repository>
+		    <id>central</id>
+		    <name>ip-172-31-6-91.ec2.internal-releases</name>
+		    <url>http://18.207.180.198:8081/artifactory/New-project</url>
+		 </repository>
 		
-		<repository>
-		    <id>jfrogtest</id>
-		    <url>http://18.207.180.198:8082/artifactory/jfrogtest/releases/</url>
-		</repository>
+		<snapshotRepository>
+		    <id>snapshots</id>
+		    <name>ip-172-31-6-91.ec2.internal-snapshots</name>
+		    <url>http://18.207.180.198:8081/artifactory/New-project</url>
+		</snapshotRepository>
   	</distributionManagement>
 	
 	<pluginRepositories>
