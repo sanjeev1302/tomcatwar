@@ -28,13 +28,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
+		    <id>jfrogtest</id>
+		    <url>http://18.207.180.198:8082/artifactory/jfrogtest/snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://13.233.230.166:8081/repository/maven-releases/</url>
+		    <id>jfrogtest</id>
+		    <url>http://18.207.180.198:8082/artifactory/jfrogtest/releases/</url>
 		</repository>
   	</distributionManagement>
 	
